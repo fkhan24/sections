@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
+  color: #333;
   font-family: 'Lato', sans-serif;
+  line-height: 1.5;
   margin: 1.5rem;
 }
 
@@ -9,7 +11,7 @@ html {
   box-sizing: inherit;
 }
 
-a {
+button {
   color: #333;
   text-decoration: none;
   text-align: center;
@@ -22,7 +24,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+button:hover {
   color: #666;
 }
 
@@ -33,12 +35,37 @@ p {
 
 }
 
-h1{
-  font-size: 1.5rem;
+h2 {
+  font-weight: bolder;
+  display: inline-block;
+  margin-bottom: .5em;
+  margin-top: 0;
+
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+
 }
 
 img {
-  padding: 0;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 100%;
-  padding-top: 2em;
+
+}
+
+section {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+p {
+  max-width: 23em;
+  font-weight: bold;
 }
